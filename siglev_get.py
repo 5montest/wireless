@@ -6,7 +6,7 @@ import re
 import time
 
 pattern = r"(?<=level=)(.*)(?= dBm)"
-cmd = "iwconfig wlx3476c54176c0"
+cmd = "iwconfig <your wireless interface name>"
 
 def main():
     while True:
